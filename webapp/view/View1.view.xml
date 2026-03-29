@@ -20,7 +20,7 @@
                 press="onUpload"
                 class="sapUiSmallMarginTop"/>
 
-            <TextArea id="fileContent" rows="10" width="100%" placeholder="selected file text appears here..."/>
+            <TextArea id="fileContent" rows="10" width="100%" placeholder="select the file and see text here"/>
            
     </VBox>
     </Page>
