@@ -1,0 +1,27 @@
+<mvc:View controllerName="files.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:unified="sap.ui.unified">
+    <Page id="page" title="Upload File">
+    <VBox class="sapUiSmallMargin">
+
+            <unified:FileUploader
+                id="fileUploader"
+                width="50%"
+                fileType="txt,json"
+                placeholder="Choose a file" 
+                change="onFileChange"/>
+
+            <Text id="fileNameText" text="No file selected"/>
+
+             <Button
+                text="Upload"
+                type="Emphasized"
+                press="onUpload"
+                class="sapUiSmallMarginTop"/>
+
+            <TextArea id="fileContent" rows="10" width="100%" placeholder="selected file text appears here..."/>
+           
+    </VBox>
+    </Page>
+</mvc:View>
