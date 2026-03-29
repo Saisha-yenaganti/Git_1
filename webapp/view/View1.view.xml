@@ -20,7 +20,7 @@
                 press="onUpload"
                 class="sapUiSmallMarginTop"/>
 
-            <TextArea id="fileContent" rows="10" width="100%" placeholder="select"/>
+            <TextArea id="fileContent" rows="10" width="100%" placeholder="change1"/>
            
     </VBox>
     </Page>
